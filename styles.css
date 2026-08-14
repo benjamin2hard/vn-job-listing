@@ -34,17 +34,15 @@ header.brand {
   margin-bottom: 2.5rem;
 }
 
-header.brand svg {
-  width: 72px;
-  height: 72px;
-  margin-bottom: 0.5rem;
+header.brand .logo-wrap {
+  max-width: 320px;
+  margin: 0 auto 0.5rem;
 }
 
-header.brand .wordmark {
-  font-size: 2.6rem;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  font-weight: 500;
+header.brand .logo-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 nav.top {
