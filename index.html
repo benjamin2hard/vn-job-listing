@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Stack Developer — VenueNest</title>
+<meta name="description" content="Full Stack Developer opening at VenueNest — a multi-tenant SaaS platform for wedding and event venues.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="brand">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="VenueNest logo">
+      <g fill="none" stroke="#6b7f5e" stroke-width="2.2" stroke-linecap="round">
+        <path d="M50 16 C 47 24, 47 30, 50 36" />
+        <path d="M50 20 C 42 22, 37 27, 35 33" />
+        <path d="M50 20 C 58 22, 63 27, 65 33" />
+        <ellipse cx="41" cy="26" rx="5" ry="3" transform="rotate(-30 41 26)" fill="#8fa77e" stroke="none"/>
+        <ellipse cx="59" cy="26" rx="5" ry="3" transform="rotate(30 59 26)" fill="#8fa77e" stroke="none"/>
+        <path d="M22 52 C 22 44, 34 38, 50 38 C 66 38, 78 44, 78 52" />
+        <path d="M26 56 C 26 49, 37 44, 50 44 C 63 44, 74 49, 74 56" />
+        <path d="M18 58 C 30 66, 70 66, 82 58 C 78 70, 65 78, 50 78 C 35 78, 22 70, 18 58 Z" fill="#f2f0e8" stroke="#6b7f5e"/>
+        <circle cx="43" cy="60" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+        <circle cx="53" cy="63" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+        <circle cx="48" cy="68" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+      </g>
+    </svg>
+    <div class="wordmark">VenueNest</div>
+    <nav class="top">
+      <a href="index.html" class="active">Job Description</a>
+      <a href="challenge.html">Challenge</a>
+    </nav>
+  </header>
+
+  <h1 class="title">Full Stack Developer</h1>
+
+  <div class="card">
+    <p>VenueNest is a multi-tenant SaaS platform for wedding and event venues. It's live in production today and covers CRM and pipeline automation, a unified email/SMS inbox, contracts and e-sign, and a client-facing portal, with a full roadmap of features still ahead.</p>
+
+    <p>The platform was originally built by a contracted outside engineering team. That team has now handed over the full codebase, and a small group remains on limited retainer for hotfixes while we transition. You'd join as our first in-house developer — working directly with the founders, and initially alongside that remaining contracted support. As the transition completes, you'll take on full technical ownership of VenueNest: architecture decisions, code quality, and engineering standards, with no other engineer above you. This is a chance to shape how the product is built and run for the long term, not just execute someone else's roadmap.</p>
+
+    <p>To be clear: this is a startup. VenueNest is early-stage and pre-revenue — no paying customers yet — which is why this role is priced where it is. In exchange, you get an unusual amount of ownership for a mid-level role, real influence over the product's direction, and comp that's expected to grow alongside the company (and your role in it).</p>
+
+    <h2>Our Mission</h2>
+    <p>At VenueNest we nurture connections, create clarity through software, and empower growth in business so our community serves with purpose and gives generously.</p>
+
+    <h2>Core Values</h2>
+    <p>We try to run VenueNest as a product and as a team, on a few simple principles: Trust, Honesty, Integrity, Love, Respect, and Gratitude. In practice, that means communicating clearly, treating clients and each other well, and taking real ownership of our work.</p>
+
+    <h2>Compensation &amp; Schedule</h2>
+    <ul class="meta-list">
+      <li><strong>Salary:</strong> $85,000 annually (reflects our early, pre-revenue stage — this will be revisited as VenueNest grows)</li>
+      <li><strong>Start Date:</strong> September 1, 2026</li>
+      <li><strong>Work Schedule:</strong> Monday–Friday, 8:00 AM–5:00 PM (in-office)</li>
+      <li><strong>Benefits:</strong> At this time, VenueNest does not offer additional paid benefits</li>
+    </ul>
+
+    <h2>Initial Work</h2>
+    <ul>
+      <li>Ship features end to end across the Angular SPA and NestJS API, following existing module and state patterns rather than inventing parallel architectures.</li>
+      <li>Model and migrate multi-tenant data with Prisma/PostgreSQL, keeping tenant isolation and permissions correct.</li>
+      <li>Build and extend queue-backed workflows with BullMQ (messaging, sync, pipeline automation) and scheduled jobs where the product already uses them.</li>
+      <li>Implement and maintain third-party integrations (Stripe, Twilio, Google, Meta, email providers), including webhooks, OAuth flows, and failure handling.</li>
+      <li>Contribute to realtime experiences over Socket.IO (inbox, pipeline, chat/community) in coordination with the REST API.</li>
+      <li>Improve automated testing and engineering hygiene as you go — unit and e2e coverage today is thin relative to the size of the codebase, and there's real room to strengthen CI and reliability without owning a separate DevOps role.</li>
+      <li>Help set the bar on engineering practices going forward — testing, code review, documentation — since you'll be the one carrying this codebase after the transition.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+      <li>About 2 to 3 years of professional software engineering experience (mid-level).</li>
+      <li>Strong TypeScript (or deep JavaScript with clear TypeScript readiness) used in production full-stack work.</li>
+      <li>Experience with a modern component framework and client-side state (e.g. Angular + NgRx, React + Redux/Zustand, or Vue + Pinia/Vuex). Angular and NgRx are strongly preferred; strong engineers from React or Vue who can ramp on Angular are welcome.</li>
+      <li>Production experience with a Node.js backend framework (NestJS preferred; Express, Fastify, or similar also relevant).</li>
+      <li>Comfortable with relational databases: schema design, migrations, and query thinking (PostgreSQL/Prisma or equivalent ORMs).</li>
+      <li>Experience designing and consuming REST APIs, including auth (JWT or session-based) and validation.</li>
+      <li>Proven ability to work in an existing large codebase and collaborate via git with a distributed team (PRs, clear written communication, async updates across time zones).</li>
+      <li>Comfortable being the sole or lead engineer on a project, and taking ownership of decisions without a senior engineer to defer to.</li>
+    </ul>
+
+    <h2>Nice to Have</h2>
+    <ul>
+      <li>Hands-on Angular (especially recent versions) and NgRx store/effects.</li>
+      <li>NestJS, Prisma, and PostgreSQL in production.</li>
+      <li>BullMQ, Redis, or similar background job systems.</li>
+      <li>Realtime work with WebSockets/Socket.IO.</li>
+      <li>Integrations involving Stripe, Twilio, OAuth providers, or messaging platforms (Meta, Google, email).</li>
+      <li>Multi-tenant SaaS experience (tenant scoping, RBAC, billing).</li>
+      <li>Familiarity with AWS (ECS, RDS, S3, CloudFront) and Docker — useful, not required; infrastructure is largely already in place.</li>
+      <li>Interest in growing automated tests (Vitest/Jest/Playwright) and CI practices.</li>
+    </ul>
+
+    <h2>The Stack</h2>
+    <p>In this early phase, your first priority will be to get deep into the existing codebase — debugging and maintaining what's already live — before moving into new feature work, which will pick up quickly as you get up to speed. The versions and tools below reflect the production codebase today; you don't need every line item on day one, but this is what you'll be working in.</p>
+
+    <h3>Frontend</h3>
+    <ul>
+      <li>Angular 21 (standalone components, lazy-loaded routes)</li>
+      <li>TypeScript (~5.9)</li>
+      <li>NgRx (store + effects) and RxJS</li>
+      <li>PrimeNG 21, Tailwind CSS 4, Angular CDK</li>
+      <li>Socket.IO client for realtime updates</li>
+      <li>FullCalendar, Quill, ECharts for calendar, rich text, and charts</li>
+      <li>Vitest for unit tests; Playwright for end-to-end / demo flows</li>
+      <li>Scale: roughly 170+ components and 100+ routed paths in a large SPA</li>
+    </ul>
+
+    <h3>Backend</h3>
+    <ul>
+      <li>NestJS 11 (Express) and TypeScript (~5.7)</li>
+      <li>Prisma against PostgreSQL (tens of models, active migration history)</li>
+      <li>JWT auth (access + refresh) with Passport, bcrypt, and role/permission guards</li>
+      <li>BullMQ on Redis for inbound/outbound messaging, Gmail sync, pipeline automation, and related jobs</li>
+      <li>@nestjs/schedule for cron work (calendar reminders, sync, token refresh)</li>
+      <li>Socket.IO with Redis adapter for chat, messaging, pipeline, and community</li>
+      <li>Swagger, class-validator, Jest / Supertest</li>
+      <li>Scale: dozens of feature modules and hundreds of REST endpoints</li>
+    </ul>
+
+    <h3>Data and Infrastructure</h3>
+    <ul>
+      <li>PostgreSQL (AWS RDS)</li>
+      <li>Redis (ElastiCache) for queues and Socket.IO scaling</li>
+      <li>AWS: ECS Fargate, ALB, ECR, S3, CloudFront, CloudFormation</li>
+      <li>Docker for the API; GitHub Actions CI on the frontend (typecheck, lint, tests, production build)</li>
+    </ul>
+
+    <h3>Integrations</h3>
+    <ul>
+      <li>Stripe: subscriptions, payment methods, webhooks</li>
+      <li>Twilio: platform SMS, numbers, inbound/outbound webhooks</li>
+      <li>SendGrid / AWS SES / SMTP: transactional and messaging email</li>
+      <li>Google: Calendar two-way sync; Gmail via OAuth and Pub/Sub watch</li>
+      <li>Meta: Facebook Messenger and Instagram DMs (OAuth + webhooks)</li>
+      <li>Firebase Admin: push notifications</li>
+      <li>AWS S3: media and file storage (presigned URLs)</li>
+    </ul>
+
+    <p>Domain context that shows up in day-to-day work: multi-tenant tenancy boundaries, booking pipeline stages and automation, unified inbox threading, contracts/e-sign, and client-facing portal surfaces.</p>
+  </div>
+
+  <div class="apply-block">
+    <h2>How to Apply</h2>
+    <p>To apply, please complete the short coding challenge linked here: <a class="email" href="challenge.html">VenueNest Take-Home Challenge</a>. Then email your resume, a link to your finished project (or GitHub repo), and your answers to the following questions to <a class="email" href="mailto:brad@venuenest.com">brad@venuenest.com</a> and <a class="email" href="mailto:ben@venuenest.com">ben@venuenest.com</a>:</p>
+    <ol>
+      <li>How do you stay up to date with AI?</li>
+      <li>Why are you excited about using AI as a core part of how you build software?</li>
+      <li>Walk us through a recent project where AI meaningfully helped you ship something you couldn't have built as quickly or well on your own — what worked, what didn't, and what you learned about directing AI effectively?</li>
+      <li>What is one technical area you're still weak in, and how do you currently use AI to close that gap?</li>
+    </ol>
+    <p>We review complete applications (resume + project + answers) as a set.</p>
+    <a class="challenge-link" href="challenge.html">View the Challenge →</a>
+  </div>
+
+  <footer class="site">VenueNest · Full Stack Developer opening</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Take-Home Challenge — VenueNest</title>
+<meta name="description" content="VenueNest Take-Home Challenge for the Full Stack Developer role.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="brand">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="VenueNest logo">
+      <g fill="none" stroke="#6b7f5e" stroke-width="2.2" stroke-linecap="round">
+        <path d="M50 16 C 47 24, 47 30, 50 36" />
+        <path d="M50 20 C 42 22, 37 27, 35 33" />
+        <path d="M50 20 C 58 22, 63 27, 65 33" />
+        <ellipse cx="41" cy="26" rx="5" ry="3" transform="rotate(-30 41 26)" fill="#8fa77e" stroke="none"/>
+        <ellipse cx="59" cy="26" rx="5" ry="3" transform="rotate(30 59 26)" fill="#8fa77e" stroke="none"/>
+        <path d="M22 52 C 22 44, 34 38, 50 38 C 66 38, 78 44, 78 52" />
+        <path d="M26 56 C 26 49, 37 44, 50 44 C 63 44, 74 49, 74 56" />
+        <path d="M18 58 C 30 66, 70 66, 82 58 C 78 70, 65 78, 50 78 C 35 78, 22 70, 18 58 Z" fill="#f2f0e8" stroke="#6b7f5e"/>
+        <circle cx="43" cy="60" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+        <circle cx="53" cy="63" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+        <circle cx="48" cy="68" r="4.5" fill="#e8dfc8" stroke="#6b7f5e" stroke-width="1.4"/>
+      </g>
+    </svg>
+    <div class="wordmark">VenueNest</div>
+    <nav class="top">
+      <a href="index.html">Job Description</a>
+      <a href="challenge.html" class="active">Challenge</a>
+    </nav>
+  </header>
+
+  <h1 class="title">VenueNest Take-Home Challenge</h1>
+
+  <div class="card">
+    <p>We're hiring an entry-level developer who is strong at learning and directing AI. This short challenge is designed to show us how you plan, build, and use AI when working with something unfamiliar.</p>
+
+    <h2>Core Requirements (Required)</h2>
+    <p>Build a simple waitlist tool and deploy it publicly:</p>
+    <ul>
+      <li>A page where someone can join a waitlist (name + email)</li>
+      <li>Store the signups somewhere (database, simple file, etc. — your choice)</li>
+      <li>An admin view that shows the list of people who signed up</li>
+      <li>A button that sends a real email through Resend (use their official SDK) to a test address</li>
+      <li>Deploy it somewhere we can actually try it (Vercel is fine)</li>
+    </ul>
+
+    <p><strong>Important:</strong> Everything must stay within free tiers. Do not use any paid plans or services that require a credit card. Resend, Vercel, and common free database options (Vercel Postgres free tier, Supabase free tier, SQLite, etc.) are all sufficient.</p>
+
+    <p><strong>Time expectation:</strong> Roughly 3–5 hours.</p>
+
+    <p><strong>AI use:</strong> Expected and encouraged. We care more about how you use AI than whether you wrote every line yourself.</p>
+
+    <h2>What to Submit</h2>
+    <ul>
+      <li>Link to the live demo</li>
+      <li>Link to the GitHub repo (include a short README)</li>
+      <li>A short decision log (½ page is plenty) covering:
+        <ul>
+          <li>What you planned vs what you shipped</li>
+          <li>Where you got stuck and how you got unstuck</li>
+          <li>What you would improve with more time</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Bonus (Optional)</h2>
+    <p>If you finish the core early and want to go further, any of these are welcome but not required:</p>
+    <ul>
+      <li>Simple authentication so only you can see the admin view</li>
+      <li>Basic multi-tenancy (multiple independent waitlists/projects)</li>
+      <li>Handling Resend webhooks (delivered / bounced / etc.)</li>
+      <li>Better error states and loading feedback in the UI</li>
+      <li>Any other improvement you think makes it more real-world</li>
+    </ul>
+
+    <p>We will look at bonus work, but a clean, working core + thoughtful decision log will always beat a half-finished advanced version.</p>
+
+    <h2>Deploying to Vercel</h2>
+    <p>For tips on setting up Vercel properly (CLI, project linking, environment variables), see the <a class="email" href="https://vercel.com/docs/cli/agent" target="_blank" rel="noopener">Vercel CLI agent guide</a>.</p>
+  </div>
+
+  <p style="text-align:center; margin-top: 2rem;"><a class="challenge-link" href="index.html">← Back to Job Description</a></p>
+
+  <footer class="site">VenueNest · Full Stack Developer opening</footer>
+
+</div>
+</body>
+</html>
